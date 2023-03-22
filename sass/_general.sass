@@ -1,0 +1,891 @@
+$bgColor: linear-gradient(90.16deg, #DA0F2C 0.13%, #E8425B 99.86%)
+$firstImportantTextColor: #DA102C
+$simpleTextColor: #222222
+$secondImportantTextColor: #038294
+$secondBgColor:#2B4F9F
+@mixin usualText
+    font-family: 'Montserrat'
+    font-style: normal
+    font-weight: 400
+    font-size: 18px
+    line-height: 140%
+    color: $simpleTextColor
+@mixin headersText
+    font-family: 'Montserrat'
+    font-style: normal
+    font-weight: 800
+    font-size: 32px
+    line-height: 130%
+    text-align: center
+    text-transform: uppercase
+
+    color: $simpleTextColor
+
+    
+    
+header
+    position: relative
+    background: $bgColor
+    min-height: 440px
+    width: 100%
+    padding: 150px 0 172px 0
+.elipsFirst
+    position: absolute
+    right: 0
+    top: 10px
+    z-index: 0
+
+.introduction
+    &_header
+        z-index: 1
+        width: 746px
+        h1
+            font-family: 'Montserrat'
+            font-style: normal
+            font-weight: 800
+            font-size: 43px
+            line-height: 140%
+            /* or 59px */
+
+            text-transform: uppercase
+
+            color: #FFFFFF
+.HelpsFrom
+    position: relative
+    min-height: 1380px
+    width: 100%
+    padding: 80px 0 90px 0
+    .elipsSecond
+        position: absolute
+        right: 0
+        top: 0px
+        z-index: -1
+    &_header
+        margin: 0 auto
+        width: 1005px
+        margin-bottom: 30px
+        h2
+            @include headersText
+            span
+                color: $firstImportantTextColor
+    &_DscrSteriotipes
+        margin-bottom: 10px
+        p
+            @include usualText
+    &_DescrBurnRecomendations
+        margin-bottom: 25px
+        p
+            @include usualText
+    &_Companies
+        margin-bottom: 24px
+        width: 100%
+        height: 131.27px
+
+        background: #F6F6F6
+        border-radius: 16px
+        display: flex
+        vertical-align: middle
+        align-items: center
+        justify-content: space-around
+        padding-left: 5px
+        padding-right: 5px 
+        &_item
+            display: flex
+            align-items: center
+            &_img
+                margin-left: 10px
+            &_text
+                @include usualText
+                font-weight: 600
+    &_DescrAdventageHistory
+        display: block
+        margin-bottom: 10px
+        p
+            @include usualText
+    &_RedBlock
+        padding: 25px
+        background: rgba(218, 16, 44, 0.1)
+        border-radius: 16px
+        display: flex
+        margin-bottom: 10px
+        img
+            width: 30px
+            height: 30px
+        p
+            padding-left: 15px
+            @include usualText
+            font-weight: 500
+            font-size: 18px
+            color: #222222
+            span
+                color: $firstImportantTextColor
+    &_LastDescr
+        p
+            @include usualText
+    &_Esceo
+        margin-bottom: 90px
+        p
+            @include usualText
+            font-family: 'Montserrat'
+            font-style: normal
+            font-weight: 400
+            font-size: 18px
+            line-height: 140%
+            /* or 25px */
+            color: #A3A3AA
+            span
+                font-weight: 600
+.centerContent
+    position: relative
+    margin: 0 auto
+    width: 770px
+.elipsThird
+    position: absolute
+    left: 0
+    bottom: 0
+    z-index: -3
+
+.HowDoesItWork
+    padding: 90px 0
+    min-height: 1290px
+    width: 100%
+    background: #F7F7F7
+    &_Header
+        margin-bottom: 30px
+        h2
+            @include headersText
+            text-align: left
+            span
+                color: $firstImportantTextColor
+    &_Block
+        display: flex
+        &_Descr
+            margin-bottom: 65px
+            width: 670px
+            &_first
+                padding-bottom: 15px
+                margin-bottom: 0
+                @include usualText
+            &_second
+                @include usualText
+    &_img
+        margin-left: 170px
+        img
+            width: 370px
+            height:370px
+    &_Dona
+        width: 100%
+        min-height: 605px
+        background: $bgColor
+        border-radius: 24px
+        padding: 35px 40px 40px 40px
+        &_Block
+            display: flex
+            justify-content: space-between
+            gap: 10px
+            padding-top: 70px
+            align-items: top
+            &_One
+                position: relative
+                &_Header
+                    position: absolute
+                    width: 288px
+                    height: 38px
+                    left: 20px
+                    top: -18px
+                    font-family: 'Montserrat'
+                    font-style: normal
+                    font-weight: 500
+                    font-size: 20px
+                    line-height: 140%
+                    color: #FFFFFF
+                    padding: 5px 20px
+                    background: #2B4F9F
+                    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.04)
+                    border-radius: 24px
+                &_Content
+                    padding: 35px 27px 20px 28px
+                    width: 430px
+                    min-height: 435px
+                    background: #FFFFFF
+                    border-radius: 16px
+                    ul
+                        
+                        padding: 0
+                        list-style: none
+                        li
+                            font-family: 'Montserrat'
+                            font-style: normal
+                            font-weight: 500
+                            font-size: 18px
+                            display: flex
+                            align-items: center
+                            /* or 23px */
+                            p 
+                                padding-bottom: 0
+                                margin-bottom: 0
+                        img
+                            padding-right: 10px
+                            width: 40px
+                            height: 40px
+
+            &_Two
+                position: relative
+                &_Header
+                    position: absolute
+                    width: 288px
+                    height: 38px
+                    left: 20px
+                    top: -18px
+                    font-family: 'Montserrat'
+                    font-style: normal
+                    font-weight: 500
+                    font-size: 20px
+                    line-height: 140%
+                    color: #FFFFFF
+                    padding: 5px 20px
+                    background: #2B4F9F
+                    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.04)
+                    border-radius: 24px
+                &_Content
+                    font-family: 'Montserrat'
+                    font-style: normal
+                    font-weight: 500
+                    font-size: 20px
+                    line-height: 130%
+                    /* identical to box height, or 26px */
+
+
+                    color: #222222
+                    padding: 35px 27px 25px 28px
+                    width: 100%
+                    min-height: 435px
+                    background: #FFFFFF
+                    border-radius: 16px
+                    span
+                        color: #E63B54
+                    ul
+                        padding-top: 10px
+                        font-family: 'Montserrat'
+                        font-style: normal
+                        font-weight: 500
+                        font-size: 18px
+                        line-height: 130%
+                        color: #222222
+                        margin-bottom: 0
+                        li
+                            font-family: 'Montserrat'
+                            font-style: normal
+                            font-weight: 500
+                            font-size: 18px
+                            line-height: 130%
+                            /* or 23px */
+                            padding-bottom: 15px
+                            margin-bottom: 0
+                            color: #222222
+                    p
+                        font-family: 'Montserrat'
+                        font-style: normal
+                        font-weight: 500
+                        font-size: 16px
+                        line-height: 140%
+                        /* or 22px */
+
+
+                        color: #A3A3AA
+    &_SecondHeader
+        width: 100%
+        
+        font-family: 'Montserrat'
+        font-style: normal
+        font-weight: 600
+        font-size: 24px
+        line-height: 140%
+        color: #FFFFFF
+.WhatsDifference
+    position: relative
+    min-height: 755px
+    padding: 90px 0 15px 0
+    
+    .centerContent
+        width: 780px
+    &_Header
+        margin-bottom: 25px
+        width: 693px
+        margin: 0 auto
+        h2
+            @include headersText
+            span
+                color: $firstImportantTextColor
+    &_Descr
+        p
+            @include usualText
+            padding-bottom: 15px
+            margin-bottom: 0
+        ul
+            li
+                padding-bottom: 15px
+                margin-bottom: 0
+                @include usualText
+    &_QuestionSingOne
+        position: absolute
+        left: -150px
+        top: 60px
+        font-family: 'Inter'
+        font-style: normal
+        font-weight: 800
+        font-size: 100px
+        line-height: 140%
+        /* identical to box height, or 140px */
+
+
+        color: rgba(218, 16, 44, 0.4)
+
+        transform: rotate(-23.44deg)
+    &_QuestionSingTwo   
+        position: absolute
+        right: -10%
+        top: 450px
+        font-family: 'Inter'
+        font-style: normal
+        font-weight: 800
+        font-size: 120px
+        line-height: 140%
+        /* identical to box height, or 168px */
+
+
+        color: rgba(218, 16, 44, 0.4)
+
+        transform: rotate(16.58deg)
+.elipsForth
+    position: absolute
+    right: 0
+    top: 0
+.MechanicOfAction
+    min-height: 1204px
+    background: #F6F6F6
+    padding: 90px 0 64px 0
+    &_Header
+        margin-bottom: 40px
+        h2
+            @include headersText
+            span
+                color: $firstImportantTextColor
+    &_Block
+        display: flex
+        justify-content: space-between
+        &_One
+            position: relative
+            width: 470px
+            min-height: 175px
+
+            background: #FFFFFF
+            border-radius: 20px
+            padding: 20px
+            p
+                font-family: 'Montserrat'
+                font-style: normal
+                font-size: 16px
+                span
+                    font-weight: 600
+                    color: $firstImportantTextColor
+                /* or 25px */
+            .oneball
+                position: absolute
+                left: 50%
+                transform: translate(-50%)
+                bottom: -10px
+            .leftRoad
+                position: absolute
+                left: 50%
+                top: 176px
+                img
+                    height: 246px
+            .hiddenLineRoad
+                display: none
+        &_Two
+            position: relative
+            width: 470px
+            min-height: 150px
+
+            background: #FFFFFF
+            border-radius: 20px
+            padding: 20px
+            p
+                font-family: 'Montserrat'
+                font-style: normal
+                font-size: 16px
+                span
+                    font-weight: 600
+                    color: $firstImportantTextColor
+            .twoball
+                position: absolute
+                right: 50%
+                transform: translate(50%)
+                bottom: -10px
+            .rightRoad
+                position: absolute
+                top: 176px
+                right: 50%
+                img
+                    height: 246px
+            .hiddenLineRoad
+                display: none
+            .hiddenball
+                display: none
+    &_DonaImg
+        margin: 0 auto
+        width: 620px
+        margin-top: 171px
+        height: 160px
+        background: #DA102C
+        border-radius: 290px/80px
+        position: relative
+        margin-bottom: 63px
+        img
+            position: absolute
+            top: -140px
+            left: 50%
+            transform: translate(-50%)
+        .leftball
+            position: absolute
+            width: 18px
+            height: 18px
+            left: -7px
+            top: 205px
+        .rightball
+            position: absolute
+            right: 0
+            top: 205px
+        .middleball
+            position: absolute
+            left: 50%
+            bottom: -130px
+            transform: translate(-50%)
+    &_Descr
+        position: relative
+        margin: 0 auto
+        padding: 25px
+        width: 969px
+        min-height: 395px
+
+        background: #FFFFFF
+        border-radius: 20px
+        p
+            @include usualText
+            span
+                color: $firstImportantTextColor
+                font-weight: 600
+        .DescrBlueball
+            position: absolute
+            top:-12px
+            left: 50%
+            transform: translate(-50%)
+        .lineRoad
+            position: absolute
+            top: -60px
+            left: 50%
+            transform: translate(-50%)
+.MainGoalsOfMedicine
+    padding: 90px 0
+    min-height: 788px
+    &_Header
+        margin-bottom: 35px
+        h2
+            @include headersText
+            span
+                color: $firstImportantTextColor
+    &_Block
+        display: flex
+        align-items: flex-start
+        justify-content: space-between
+        &_Clauses
+            width: 630px
+            ul
+                padding: 0
+                li
+
+                    display: flex
+                    align-items: flex-start
+                    p
+                        @include usualText
+                        font-weight: 500
+                    img
+                        padding-right: 15px 
+
+        &_Img
+            margin-top: 20px
+            img
+                width: 100%
+                height: 371px
+    &_ImportantText
+        width: 630px
+        display: flex
+        &_Text
+            p
+                font-family: 'Montserrat'
+                font-style: normal
+                font-weight: 600
+                font-size: 18px
+                line-height: 140%
+                /* or 25px */
+
+
+                color: #DA102C
+        &_Img
+            margin-right: 15px
+.WhatKindOfInfluence
+    min-height: 579px
+    width: 100%
+    padding: 90px 0
+    background: #F6F6F6
+    &_Header
+        margin: 0 auto
+        margin-bottom: 35px
+        h2
+            @include headersText
+            span
+                color: $firstImportantTextColor
+    &_FlexContainer
+        display: flex
+        width: 1170px
+        flex-wrap: wrap
+        justify-content: center
+        gap: 10px
+        .item
+            width: 375px
+            height: 142px
+            padding: 20px
+            background: #DA102C
+            border-radius: 16px
+            display: flex
+            align-items: center
+            p
+                @include usualText
+                font-weight: 700
+                color: #ffffff
+                font-size: 20px
+.ProveBase
+    padding: 90px 0 20px 0
+    .centerContent
+        width: 990px
+    &_Header
+        margin-bottom: 55px
+        h2
+            @include headersText
+            span
+                color: $firstImportantTextColor
+    &_Block
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+        &_One
+            width: 469px
+            p
+                @include usualText
+                padding-bottom: 30px
+                span
+                    font-weight: 700
+        &_Two
+            width: 470px
+            p
+                @include usualText
+                span
+                    font-weight: 700
+        &_Blue
+            display: flex
+            gap: 25px
+            align-items: center
+            margin-bottom: 45px
+            &_Stick
+                width: 5px
+                height: 81px
+
+                background: #DA102C
+            &_HelpsDescr
+                font-family: 'Montserrat'
+                font-style: normal
+                font-weight: 700
+                font-size: 18px
+                line-height: 140%
+                /* or 25px */
+                
+                text-transform: uppercase
+
+                color: #038294
+    &_TableName
+        @include usualText
+        font-weight: 500
+        color: #999999
+        margin-bottom: 20px
+    &_TableOneImg
+        margin-bottom: 38px
+        img
+            width: 100%
+            height: 575px
+    &_BlockOfIndicators
+        margin-bottom: 45px
+        display: flex
+        justify-content: space-between  
+        &_One
+            width: 618px
+            img
+                width: 100%
+                height: 396px
+            p
+                padding-top: 30px
+                font-family: 'Montserrat'
+                font-style: normal
+                font-weight: 600
+                font-size: 24px
+                line-height: 140%
+                /* identical to box height, or 34px */
+
+
+                color: #000000
+        &_Two
+            width: 300px
+            img
+                display: block
+                margin: 0 auto
+                width: 80%
+                height: 395px
+            p
+                font-family: 'Montserrat'
+                font-style: normal
+                font-weight: 500
+                font-size: 11px
+                line-height: 140%
+                /* or 15px */
+
+
+                color: #000000
+    &_ImportantText
+        width: 100%
+        min-height: 125px
+        padding: 25px
+        background: rgba(218, 16, 44, 0.1)
+        border-radius: 16px
+        margin-bottom: 18px
+        p
+            font-family: 'Montserrat'
+            font-style: normal
+            font-weight: 500
+            font-size: 18px
+            line-height: 140%
+            /* or 25px */
+
+
+            color: #DA102C
+    &_Graphics
+        img:first-child
+            height: 368px
+            padding-bottom: 10px
+            width: 100%
+            text-align: center
+        img:last-child
+            height: 221px
+            padding-bottom: 10px
+            width: 100%
+            text-align: center
+.HowUse
+    position: relative
+    z-index: -2
+    width: 100%
+    padding: 90px 0
+    min-height: 1390px
+    background: #F6F6F6
+    .centerContent
+        width: 970px
+    &_Header
+        margin-bottom: 70px
+        h2
+            @include headersText
+            span 
+                color: $firstImportantTextColor
+    &_BlockOne
+        position: relative
+        margin-bottom: 55px
+        &_Content
+            padding: 40px 25px
+            width: 100%
+            min-height: 182px
+
+            background: #FFFFFF
+            border-radius: 16px
+            ul
+                li
+                    font-family: 'Montserrat'
+                    font-style: normal
+                    font-weight: 500
+                    font-size: 18px
+                    line-height: 130%
+                    padding-bottom: 10px
+                    color: #222222
+        &_Header
+            padding: 8px 20px
+            position: absolute
+            width: 340px
+            min-height: 38px
+            left: 25px
+            top: -19px
+            background: #2B4F9F
+            box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.04)
+            border-radius: 24px
+            font-family: 'Montserrat'
+            font-style: normal
+            font-weight: 500
+            font-size: 20px
+            line-height: 140%
+            color: #FFFFFF
+    &_BlockTwo
+        position: relative
+        margin-bottom: 55px
+        &_Content
+            padding: 52px 25px 32px 25px
+            width: 100%
+            min-height: 182px
+            background: #FFFFFF
+            border-radius: 16px
+            ul
+                li
+                    font-family: 'Montserrat'
+                    font-style: normal
+                    font-weight: 500
+                    font-size: 18px
+                    line-height: 130%
+                    color: #222222
+                    padding-bottom: 10px
+        &_Header
+            padding: 10px 20px
+            position: absolute
+            width: 858px
+            min-height: 64px
+            left: 25px
+            top: -32px
+            background: #2B4F9F
+            box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.04)
+            border-radius: 50px
+            font-family: 'Montserrat'
+            font-style: normal
+            font-weight: 500
+            font-size: 20px
+            line-height: 140%
+            color: #FFFFFF
+    &_BlockThree
+        position: relative
+        margin-bottom: 55px
+        &_Content
+            padding: 40px 25px
+            width: 100%
+            min-height: 182px
+
+            background: #FFFFFF
+            border-radius: 16px
+            p
+                @include usualText
+                font-weight: 500
+                font-size: 20px
+                span
+                    color: $firstImportantTextColor
+            ul
+                padding-bottom: 30px
+                li
+                    @include usualText
+                    font-weight: 500
+                    padding-bottom: 5px
+            ul:last-child
+                padding-bottom: 0
+                margin-bottom: 0
+        &_Header
+            padding: 8px 20px
+            position: absolute
+            width: 500px
+            min-height: 38px
+            left: 25px
+            top: -19px
+
+            background: #2B4F9F
+            box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.04)
+            border-radius: 24px
+            font-family: 'Montserrat'
+            font-style: normal
+            font-weight: 500
+            font-size: 20px
+            line-height: 140%
+            color: #FFFFFF
+.elipsFifth
+    position: absolute
+    bottom: 0
+    right: 0
+    z-index: -3
+.ListOfLiterature
+    min-height: 1583px
+    width: 100%
+    padding: 58px 0
+    &_Header
+        margin-bottom: 54px
+        h2
+            @include headersText
+            text-align: left
+            padding-left: 30px
+    ol
+        li
+            @include usualText
+            font-size: 22px
+            padding-bottom: 20px
+
+footer
+    min-height: 289px
+    width: 100%
+    background: $bgColor
+    padding: 90px 0 60px 0
+    .footer
+        &_block
+            display: flex
+            justify-content: space-between
+            align-items: flex-end
+            &_texts
+                width: 616px
+                &_ForWhat
+                    margin-bottom: 25px
+                    font-family: 'Montserrat'
+                    font-style: normal
+                    font-weight: 400
+                    font-size: 16px
+                    line-height: 120%
+                    /* or 19px */
+
+
+                    color: #FFFFFF
+                &_Date
+                    margin-bottom: 15px
+                    font-family: 'Montserrat'
+                    font-style: normal
+                    font-weight: 400
+                    font-size: 16px
+                    line-height: 120%
+                    /* or 19px */
+
+
+                    color: #FFFFFF
+                address
+                    width: 402px
+                    font-family: 'Montserrat'
+                    font-style: normal
+                    font-weight: 400
+                    font-size: 16px
+                    line-height: 120%
+                    /* or 19px */
+
+
+                    color: #FFFFFF
+                    a
+                        text-decoration: none
+                        color: #FFFFFF
+
+            &_logo
+                img
+                    width: 269px
+                    height: 75px
+

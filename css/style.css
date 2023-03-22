@@ -1,0 +1,1392 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&family=Montserrat:wght@400;500;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: relative;
+  background: linear-gradient(90.16deg, #DA0F2C 0.13%, #E8425B 99.86%);
+  min-height: 440px;
+  width: 100%;
+  padding: 150px 0 172px 0;
+}
+
+.elipsFirst {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  z-index: 0;
+}
+
+.introduction_header {
+  z-index: 1;
+  width: 746px;
+}
+.introduction_header h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 43px;
+  line-height: 140%;
+  /* or 59px */
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.HelpsFrom {
+  position: relative;
+  min-height: 1380px;
+  width: 100%;
+  padding: 80px 0 90px 0;
+}
+.HelpsFrom .elipsSecond {
+  position: absolute;
+  right: 0;
+  top: 0px;
+  z-index: -1;
+}
+.HelpsFrom_header {
+  margin: 0 auto;
+  width: 1005px;
+  margin-bottom: 30px;
+}
+.HelpsFrom_header h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 130%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222222;
+}
+.HelpsFrom_header h2 span {
+  color: #DA102C;
+}
+.HelpsFrom_DscrSteriotipes {
+  margin-bottom: 10px;
+}
+.HelpsFrom_DscrSteriotipes p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #222222;
+}
+.HelpsFrom_DescrBurnRecomendations {
+  margin-bottom: 25px;
+}
+.HelpsFrom_DescrBurnRecomendations p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #222222;
+}
+.HelpsFrom_Companies {
+  margin-bottom: 24px;
+  width: 100%;
+  height: 131.27px;
+  background: #F6F6F6;
+  border-radius: 16px;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.HelpsFrom_Companies_item {
+  display: flex;
+  align-items: center;
+}
+.HelpsFrom_Companies_item_img {
+  margin-left: 10px;
+}
+.HelpsFrom_Companies_item_text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #222222;
+  font-weight: 600;
+}
+.HelpsFrom_DescrAdventageHistory {
+  display: block;
+  margin-bottom: 10px;
+}
+.HelpsFrom_DescrAdventageHistory p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #222222;
+}
+.HelpsFrom_RedBlock {
+  padding: 25px;
+  background: rgba(218, 16, 44, 0.1);
+  border-radius: 16px;
+  display: flex;
+  margin-bottom: 10px;
+}
+.HelpsFrom_RedBlock img {
+  width: 30px;
+  height: 30px;
+}
+.HelpsFrom_RedBlock p {
+  padding-left: 15px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #222222;
+  font-weight: 500;
+  font-size: 18px;
+  color: #222222;
+}
+.HelpsFrom_RedBlock p span {
+  color: #DA102C;
+}
+.HelpsFrom_LastDescr p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #222222;
+}
+.HelpsFrom_Esceo {
+  margin-bottom: 90px;
+}
+.HelpsFrom_Esceo p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #222222;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+  color: #A3A3AA;
+}
+.HelpsFrom_Esceo p span {
+  font-weight: 600;
+}
+
+.centerContent {
+  position: relative;
+  margin: 0 auto;
+  width: 770px;
+}
+
+.elipsThird {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -3;
+}
+
+.HowDoesItWork {
+  padding: 90px 0;
+  min-height: 1290px;
+  width: 100%;
+  background: #F7F7F7;
+}
+.HowDoesItWork_Header {
+  margin-bottom: 30px;
+}
+.HowDoesItWork_Header h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 130%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222222;
+  text-align: left;
+}
+.HowDoesItWork_Header h2 span {
+  color: #DA102C;
+}
+.HowDoesItWork_Block {
+  display: flex;
+}
+.HowDoesItWork_Block_Descr {
+  margin-bottom: 65px;
+  width: 670px;
+}
+.HowDoesItWork_Block_Descr_first {
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #222222;
+}
+.HowDoesItWork_Block_Descr_second {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #222222;
+}
+.HowDoesItWork_img {
+  margin-left: 170px;
+}
+.HowDoesItWork_img img {
+  width: 370px;
+  height: 370px;
+}
+.HowDoesItWork_Dona {
+  width: 100%;
+  min-height: 605px;
+  background: linear-gradient(90.16deg, #DA0F2C 0.13%, #E8425B 99.86%);
+  border-radius: 24px;
+  padding: 35px 40px 40px 40px;
+}
+.HowDoesItWork_Dona_Block {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding-top: 70px;
+  align-items: top;
+}
+.HowDoesItWork_Dona_Block_One {
+  position: relative;
+}
+.HowDoesItWork_Dona_Block_One_Header {
+  position: absolute;
+  width: 288px;
+  height: 38px;
+  left: 20px;
+  top: -18px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  color: #FFFFFF;
+  padding: 5px 20px;
+  background: #2B4F9F;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.04);
+  border-radius: 24px;
+}
+.HowDoesItWork_Dona_Block_One_Content {
+  padding: 35px 27px 20px 28px;
+  width: 430px;
+  min-height: 435px;
+  background: #FFFFFF;
+  border-radius: 16px;
+}
+.HowDoesItWork_Dona_Block_One_Content ul {
+  padding: 0;
+  list-style: none;
+}
+.HowDoesItWork_Dona_Block_One_Content ul li {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  /* or 23px */
+}
+.HowDoesItWork_Dona_Block_One_Content ul li p {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.HowDoesItWork_Dona_Block_One_Content ul img {
+  padding-right: 10px;
+  width: 40px;
+  height: 40px;
+}
+.HowDoesItWork_Dona_Block_Two {
+  position: relative;
+}
+.HowDoesItWork_Dona_Block_Two_Header {
+  position: absolute;
+  width: 288px;
+  height: 38px;
+  left: 20px;
+  top: -18px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  color: #FFFFFF;
+  padding: 5px 20px;
+  background: #2B4F9F;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.04);
+  border-radius: 24px;
+}
+.HowDoesItWork_Dona_Block_Two_Content {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  /* identical to box height, or 26px */
+  color: #222222;
+  padding: 35px 27px 25px 28px;
+  width: 100%;
+  min-height: 435px;
+  background: #FFFFFF;
+  border-radius: 16px;
+}
+.HowDoesItWork_Dona_Block_Two_Content span {
+  color: #E63B54;
+}
+.HowDoesItWork_Dona_Block_Two_Content ul {
+  padding-top: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  color: #222222;
+  margin-bottom: 0;
+}
+.HowDoesItWork_Dona_Block_Two_Content ul li {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  /* or 23px */
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  color: #222222;
+}
+.HowDoesItWork_Dona_Block_Two_Content p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  color: #A3A3AA;
+}
+.HowDoesItWork_SecondHeader {
+  width: 100%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+.WhatsDifference {
+  position: relative;
+  min-height: 755px;
+  padding: 90px 0 15px 0;
+}
+.WhatsDifference .centerContent {
+  width: 780px;
+}
+.WhatsDifference_Header {
+  margin-bottom: 25px;
+  width: 693px;
+  margin: 0 auto;
+}
+.WhatsDifference_Header h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 130%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222222;
+}
+.WhatsDifference_Header h2 span {
+  color: #DA102C;
+}
+.WhatsDifference_Descr p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #222222;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+}
+.WhatsDifference_Descr ul li {
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #222222;
+}
+.WhatsDifference_QuestionSingOne {
+  position: absolute;
+  left: -150px;
+  top: 60px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 100px;
+  line-height: 140%;
+  /* identical to box height, or 140px */
+  color: rgba(218, 16, 44, 0.4);
+  transform: rotate(-23.44deg);
+}
+.WhatsDifference_QuestionSingTwo {
+  position: absolute;
+  right: -10%;
+  top: 450px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 120px;
+  line-height: 140%;
+  /* identical to box height, or 168px */
+  color: rgba(218, 16, 44, 0.4);
+  transform: rotate(16.58deg);
+}
+
+.elipsForth {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.MechanicOfAction {
+  min-height: 1204px;
+  background: #F6F6F6;
+  padding: 90px 0 64px 0;
+}
+.MechanicOfAction_Header {
+  margin-bottom: 40px;
+}
+.MechanicOfAction_Header h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 130%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222222;
+}
+.MechanicOfAction_Header h2 span {
+  color: #DA102C;
+}
+.MechanicOfAction_Block {
+  display: flex;
+  justify-content: space-between;
+}
+.MechanicOfAction_Block_One {
+  position: relative;
+  width: 470px;
+  min-height: 175px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 20px;
+}
+.MechanicOfAction_Block_One p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 16px;
+  /* or 25px */
+}
+.MechanicOfAction_Block_One p span {
+  font-weight: 600;
+  color: #DA102C;
+}
+.MechanicOfAction_Block_One .oneball {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: -10px;
+}
+.MechanicOfAction_Block_One .leftRoad {
+  position: absolute;
+  left: 50%;
+  top: 176px;
+}
+.MechanicOfAction_Block_One .leftRoad img {
+  height: 246px;
+}
+.MechanicOfAction_Block_One .hiddenLineRoad {
+  display: none;
+}
+.MechanicOfAction_Block_Two {
+  position: relative;
+  width: 470px;
+  min-height: 150px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 20px;
+}
+.MechanicOfAction_Block_Two p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 16px;
+}
+.MechanicOfAction_Block_Two p span {
+  font-weight: 600;
+  color: #DA102C;
+}
+.MechanicOfAction_Block_Two .twoball {
+  position: absolute;
+  right: 50%;
+  transform: translate(50%);
+  bottom: -10px;
+}
+.MechanicOfAction_Block_Two .rightRoad {
+  position: absolute;
+  top: 176px;
+  right: 50%;
+}
+.MechanicOfAction_Block_Two .rightRoad img {
+  height: 246px;
+}
+.MechanicOfAction_Block_Two .hiddenLineRoad {
+  display: none;
+}
+.MechanicOfAction_Block_Two .hiddenball {
+  display: none;
+}
+.MechanicOfAction_DonaImg {
+  margin: 0 auto;
+  width: 620px;
+  margin-top: 171px;
+  height: 160px;
+  background: #DA102C;
+  border-radius: 290px/80px;
+  position: relative;
+  margin-bottom: 63px;
+}
+.MechanicOfAction_DonaImg img {
+  position: absolute;
+  top: -140px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.MechanicOfAction_DonaImg .leftball {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: -7px;
+  top: 205px;
+}
+.MechanicOfAction_DonaImg .rightball {
+  position: absolute;
+  right: 0;
+  top: 205px;
+}
+.MechanicOfAction_DonaImg .middleball {
+  position: absolute;
+  left: 50%;
+  bottom: -130px;
+  transform: translate(-50%);
+}
+.MechanicOfAction_Descr {
+  position: relative;
+  margin: 0 auto;
+  padding: 25px;
+  width: 969px;
+  min-height: 395px;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+.MechanicOfAction_Descr p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #222222;
+}
+.MechanicOfAction_Descr p span {
+  color: #DA102C;
+  font-weight: 600;
+}
+.MechanicOfAction_Descr .DescrBlueball {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.MechanicOfAction_Descr .lineRoad {
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.MainGoalsOfMedicine {
+  padding: 90px 0;
+  min-height: 788px;
+}
+.MainGoalsOfMedicine_Header {
+  margin-bottom: 35px;
+}
+.MainGoalsOfMedicine_Header h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 130%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222222;
+}
+.MainGoalsOfMedicine_Header h2 span {
+  color: #DA102C;
+}
+.MainGoalsOfMedicine_Block {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.MainGoalsOfMedicine_Block_Clauses {
+  width: 630px;
+}
+.MainGoalsOfMedicine_Block_Clauses ul {
+  padding: 0;
+}
+.MainGoalsOfMedicine_Block_Clauses ul li {
+  display: flex;
+  align-items: flex-start;
+}
+.MainGoalsOfMedicine_Block_Clauses ul li p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #222222;
+  font-weight: 500;
+}
+.MainGoalsOfMedicine_Block_Clauses ul li img {
+  padding-right: 15px;
+}
+.MainGoalsOfMedicine_Block_Img {
+  margin-top: 20px;
+}
+.MainGoalsOfMedicine_Block_Img img {
+  width: 100%;
+  height: 371px;
+}
+.MainGoalsOfMedicine_ImportantText {
+  width: 630px;
+  display: flex;
+}
+.MainGoalsOfMedicine_ImportantText_Text p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+  color: #DA102C;
+}
+.MainGoalsOfMedicine_ImportantText_Img {
+  margin-right: 15px;
+}
+
+.WhatKindOfInfluence {
+  min-height: 579px;
+  width: 100%;
+  padding: 90px 0;
+  background: #F6F6F6;
+}
+.WhatKindOfInfluence_Header {
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+.WhatKindOfInfluence_Header h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 130%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222222;
+}
+.WhatKindOfInfluence_Header h2 span {
+  color: #DA102C;
+}
+.WhatKindOfInfluence_FlexContainer {
+  display: flex;
+  width: 1170px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.WhatKindOfInfluence_FlexContainer .item {
+  width: 375px;
+  height: 142px;
+  padding: 20px;
+  background: #DA102C;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+}
+.WhatKindOfInfluence_FlexContainer .item p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #222222;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.ProveBase {
+  padding: 90px 0 20px 0;
+}
+.ProveBase .centerContent {
+  width: 990px;
+}
+.ProveBase_Header {
+  margin-bottom: 55px;
+}
+.ProveBase_Header h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 130%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222222;
+}
+.ProveBase_Header h2 span {
+  color: #DA102C;
+}
+.ProveBase_Block {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.ProveBase_Block_One {
+  width: 469px;
+}
+.ProveBase_Block_One p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #222222;
+  padding-bottom: 30px;
+}
+.ProveBase_Block_One p span {
+  font-weight: 700;
+}
+.ProveBase_Block_Two {
+  width: 470px;
+}
+.ProveBase_Block_Two p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #222222;
+}
+.ProveBase_Block_Two p span {
+  font-weight: 700;
+}
+.ProveBase_Block_Blue {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  margin-bottom: 45px;
+}
+.ProveBase_Block_Blue_Stick {
+  width: 5px;
+  height: 81px;
+  background: #DA102C;
+}
+.ProveBase_Block_Blue_HelpsDescr {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+  text-transform: uppercase;
+  color: #038294;
+}
+.ProveBase_TableName {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #222222;
+  font-weight: 500;
+  color: #999999;
+  margin-bottom: 20px;
+}
+.ProveBase_TableOneImg {
+  margin-bottom: 38px;
+}
+.ProveBase_TableOneImg img {
+  width: 100%;
+  height: 575px;
+}
+.ProveBase_BlockOfIndicators {
+  margin-bottom: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+.ProveBase_BlockOfIndicators_One {
+  width: 618px;
+}
+.ProveBase_BlockOfIndicators_One img {
+  width: 100%;
+  height: 396px;
+}
+.ProveBase_BlockOfIndicators_One p {
+  padding-top: 30px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  /* identical to box height, or 34px */
+  color: #000000;
+}
+.ProveBase_BlockOfIndicators_Two {
+  width: 300px;
+}
+.ProveBase_BlockOfIndicators_Two img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: 395px;
+}
+.ProveBase_BlockOfIndicators_Two p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 140%;
+  /* or 15px */
+  color: #000000;
+}
+.ProveBase_ImportantText {
+  width: 100%;
+  min-height: 125px;
+  padding: 25px;
+  background: rgba(218, 16, 44, 0.1);
+  border-radius: 16px;
+  margin-bottom: 18px;
+}
+.ProveBase_ImportantText p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+  color: #DA102C;
+}
+.ProveBase_Graphics img:first-child {
+  height: 368px;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+.ProveBase_Graphics img:last-child {
+  height: 221px;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.HowUse {
+  position: relative;
+  z-index: -2;
+  width: 100%;
+  padding: 90px 0;
+  min-height: 1390px;
+  background: #F6F6F6;
+}
+.HowUse .centerContent {
+  width: 970px;
+}
+.HowUse_Header {
+  margin-bottom: 70px;
+}
+.HowUse_Header h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 130%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222222;
+}
+.HowUse_Header h2 span {
+  color: #DA102C;
+}
+.HowUse_BlockOne {
+  position: relative;
+  margin-bottom: 55px;
+}
+.HowUse_BlockOne_Content {
+  padding: 40px 25px;
+  width: 100%;
+  min-height: 182px;
+  background: #FFFFFF;
+  border-radius: 16px;
+}
+.HowUse_BlockOne_Content ul li {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  padding-bottom: 10px;
+  color: #222222;
+}
+.HowUse_BlockOne_Header {
+  padding: 8px 20px;
+  position: absolute;
+  width: 340px;
+  min-height: 38px;
+  left: 25px;
+  top: -19px;
+  background: #2B4F9F;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.04);
+  border-radius: 24px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.HowUse_BlockTwo {
+  position: relative;
+  margin-bottom: 55px;
+}
+.HowUse_BlockTwo_Content {
+  padding: 52px 25px 32px 25px;
+  width: 100%;
+  min-height: 182px;
+  background: #FFFFFF;
+  border-radius: 16px;
+}
+.HowUse_BlockTwo_Content ul li {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  color: #222222;
+  padding-bottom: 10px;
+}
+.HowUse_BlockTwo_Header {
+  padding: 10px 20px;
+  position: absolute;
+  width: 858px;
+  min-height: 64px;
+  left: 25px;
+  top: -32px;
+  background: #2B4F9F;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.04);
+  border-radius: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.HowUse_BlockThree {
+  position: relative;
+  margin-bottom: 55px;
+}
+.HowUse_BlockThree_Content {
+  padding: 40px 25px;
+  width: 100%;
+  min-height: 182px;
+  background: #FFFFFF;
+  border-radius: 16px;
+}
+.HowUse_BlockThree_Content p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #222222;
+  font-weight: 500;
+  font-size: 20px;
+}
+.HowUse_BlockThree_Content p span {
+  color: #DA102C;
+}
+.HowUse_BlockThree_Content ul {
+  padding-bottom: 30px;
+}
+.HowUse_BlockThree_Content ul li {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #222222;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+.HowUse_BlockThree_Content ul:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.HowUse_BlockThree_Header {
+  padding: 8px 20px;
+  position: absolute;
+  width: 500px;
+  min-height: 38px;
+  left: 25px;
+  top: -19px;
+  background: #2B4F9F;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.04);
+  border-radius: 24px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+.elipsFifth {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -3;
+}
+
+.ListOfLiterature {
+  min-height: 1583px;
+  width: 100%;
+  padding: 58px 0;
+}
+.ListOfLiterature_Header {
+  margin-bottom: 54px;
+}
+.ListOfLiterature_Header h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 130%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222222;
+  text-align: left;
+  padding-left: 30px;
+}
+.ListOfLiterature ol li {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #222222;
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+
+footer {
+  min-height: 289px;
+  width: 100%;
+  background: linear-gradient(90.16deg, #DA0F2C 0.13%, #E8425B 99.86%);
+  padding: 90px 0 60px 0;
+}
+footer .footer_block {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+footer .footer_block_texts {
+  width: 616px;
+}
+footer .footer_block_texts_ForWhat {
+  margin-bottom: 25px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+  color: #FFFFFF;
+}
+footer .footer_block_texts_Date {
+  margin-bottom: 15px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+  color: #FFFFFF;
+}
+footer .footer_block_texts address {
+  width: 402px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+  color: #FFFFFF;
+}
+footer .footer_block_texts address a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+footer .footer_block_logo img {
+  width: 269px;
+  height: 75px;
+}
+
+@media (max-width: 1200px) {
+  .WhatsDifference_QuestionSingTwo {
+    display: none;
+  }
+  .WhatsDifference_QuestionSingOne {
+    display: none;
+  }
+  .MechanicOfAction_Block {
+    flex-direction: column;
+  }
+  .MechanicOfAction_Block_One {
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  .MechanicOfAction_Block_One .hiddenLineRoad {
+    position: absolute;
+    display: block;
+    bottom: -50px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .MechanicOfAction_Block_Two {
+    margin: 0 auto;
+  }
+  .MechanicOfAction_Block_Two .hiddenLineRoad {
+    position: absolute;
+    display: block;
+    bottom: -50px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .MechanicOfAction_Block_Two .hiddenball {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: -16px;
+  }
+  .rightball {
+    display: none;
+  }
+  .leftball {
+    display: none;
+  }
+  .leftRoad {
+    display: none;
+  }
+  .rightRoad {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .elipsFirst {
+    display: none;
+  }
+  .elipsSecond {
+    display: none;
+  }
+  .HowDoesItWork_Dona_Block {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .HowDoesItWork_Dona_Block_One_Content {
+    width: 100%;
+  }
+  .HowDoesItWork_img {
+    margin-left: 0px;
+  }
+  .HowDoesItWork_img img {
+    width: 370px;
+    height: 370px;
+  }
+  .HowUse_BlockTwo_Header {
+    width: 645px;
+  }
+}
+@media (max-width: 767px) {
+  .MechanicOfAction_DonaImg img {
+    width: 100%;
+  }
+  .MechanicOfAction_Block {
+    width: 100%;
+  }
+  .MechanicOfAction_Block_One {
+    width: 100%;
+  }
+  .MechanicOfAction_Block_Two {
+    width: 100%;
+  }
+  .HowUse_BlockTwo_Header {
+    width: 490px;
+  }
+  .HowUse_BlockTwo_Content ul {
+    padding-top: 45px;
+  }
+  .WhatsDifference_Header {
+    width: 100%;
+  }
+  footer .footer_block {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .footer_block_texts {
+    width: 100%;
+  }
+  footer .footer_block_texts_ForWhat {
+    text-align: center;
+    width: 100%;
+  }
+  footer .footer_block_texts_Date {
+    text-align: center;
+  }
+  footer .footer_block_texts address {
+    text-align: center;
+    width: 100%;
+  }
+  .HelpsFrom_Companies {
+    height: 300px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .HelpsFrom_Companies_item:first-child {
+    margin-left: -10px;
+  }
+  .HowDoesItWork_Block {
+    flex-direction: column;
+  }
+  .HowDoesItWork_Block_Descr {
+    width: 100%;
+  }
+  .HowDoesItWork_img {
+    display: none;
+  }
+  .ProveBase_Graphics img:first-child {
+    height: 320px;
+  }
+  .ProveBase_Graphics img:last-child {
+    height: 160px;
+  }
+  .ProveBase_TableOneImg img {
+    height: 420px;
+  }
+  .ProveBase_BlockOfIndicators {
+    flex-direction: column;
+  }
+  .ProveBase_BlockOfIndicators_One {
+    width: 100%;
+  }
+  .ProveBase_BlockOfIndicators_One p {
+    text-align: center;
+  }
+  .ProveBase_BlockOfIndicators_Two {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .ListOfLiterature_Header {
+    margin: 0 auto;
+  }
+  .ListOfLiterature_Header h2 {
+    text-align: center;
+  }
+  .MainGoalsOfMedicine_Block_Img {
+    display: none;
+  }
+  .MainGoalsOfMedicine_Block_Clauses {
+    width: 400px;
+  }
+}
+@media (max-width: 575px) {
+  .MainGoalsOfMedicine_Block {
+    flex-direction: column;
+  }
+  .MainGoalsOfMedicine_Block_Img {
+    margin: 0 auto;
+  }
+  .HowUse_BlockTwo_Header {
+    width: 479px;
+  }
+  footer .footer_block_texts {
+    width: 100%;
+  }
+  footer .footer_block_texts_ForWhat {
+    text-align: center;
+    width: 100%;
+  }
+  .introduction_header {
+    width: 100%;
+  }
+  .introduction_header h1 {
+    text-align: center;
+  }
+  .MechanicOfAction_DonaImg img {
+    width: 100%;
+  }
+  .MechanicOfAction_Block {
+    width: 100%;
+  }
+  .MechanicOfAction_Block_One {
+    width: 100%;
+  }
+  .MechanicOfAction_Block_Two {
+    width: 100%;
+  }
+  .HowUse_BlockTwo {
+    padding-top: 30px;
+  }
+  .HowUse_BlockTwo_Header {
+    width: 364px;
+  }
+  .HowUse_BlockThree {
+    padding-top: 30px;
+  }
+  .HowUse_BlockThree_Header {
+    width: 360px;
+  }
+}
